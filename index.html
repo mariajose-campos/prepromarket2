@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Market MAJO</title>
+</head>
+<body bgcolor="pink">
+
+  <table border="1" width="100%" height="150">
+    <tr>
+      <td width="30%" align="center">
+        <img src="imagenes/logix.jpg" width="120" alt="Logo del Market">
+      </td>
+      <td align="center">
+        <h1><font color="red">MARKET MAJO</font></h1>
+        <h3><font color="green">Frescura y calidad a tu alcance</font></h3>
+      </td>
+    </tr>
+  </table>
+
+  <table border="1" width="100%" height="40">
+    <tr bgcolor="aquamarine" align="center">
+      <td><font size="5" color="purple">Nosotros</font></td>
+      <td><font size="5" color="purple">Productos</font></td>
+      <td><font size="5" color="purple">Promociones</font></td>
+      <td><font size="5" color="purple">Pedidos</font></td>
+    </tr>
+  </table>
+
+  <table border="1" width="100%" height="300">
+    <tr>
+      <td width="50%" valign="top">
+        <h2 align="center">Productos Destacados</h2>
+        <ul>
+          <li>Frutas frescas 🍎🍌🍇</li>
+          <li>Verduras orgánicas 🥕🥦🥒</li>
+          <li>Carnes seleccionadas 🍖🍗</li>
+          <li>Lácteos y derivados 🥛🧀</li>
+          <li>Bebidas refrescantes 🥤🍷</li>
+        </ul>
+      </td>
+      <td width="50%" valign="top">
+        <h2 align="center">Promociones del Día 🎉</h2>
+        <p><b>Manzanas:</b> 2x1</p>
+        <p><b>Pollo fresco:</b> 20% de descuento</p>
+        <p><b>Leche:</b> Llévate 3 y paga 2</p>
+      </td>
+    </tr>
+  </table>
+
+  <table border="1" width="100%" height="400">
+    <tr>
+      <td>
+        <h2 align="center">Realiza tu Pedido</h2>
+        <form>
+          <fieldset>
+            <legend>Datos del Cliente</legend>
+            <label for="nombre">Nombre:</label><br>
+            <input type="text" id="nombre" name="nombre"><br><br>
+
+            <label for="correo">Correo:</label><br>
+            <input type="email" id="correo" name="correo"><br><br>
+
+            <label for="telefono">Teléfono:</label><br>
+            <input type="tel" id="telefono" name="telefono"><br><br>
+          </fieldset>
+
+          <fieldset>
+            <legend>Pedido</legend>
+            <label for="producto">Producto:</label><br>
+            <select id="producto" name="producto">
+              <option value="frutas">Frutas</option>
+              <option value="verduras">Verduras</option>
+              <option value="carnes">Carnes</option>
+              <option value="lacteos">Lácteos</option>
+              <option value="bebidas">Bebidas</option>
+            </select><br><br>
+
+            <label>Cantidad:</label><br>
+            <input type="number" name="cantidad" min="1"><br><br>
+
+            <label>Método de pago:</label><br>
+            <input type="radio" id="efectivo" name="pago" value="efectivo">
+            <label for="efectivo">Efectivo</label><br>
+            <input type="radio" id="tarjeta" name="pago" value="tarjeta">
+            <label for="tarjeta">Tarjeta</label><br>
+            <input type="radio" id="yape" name="pago" value="yape">
+            <label for="yape">Yape/Plin</label><br>
+          </fieldset>
+
+          <br>
+          <input type="submit" value="Enviar Pedido">
+          <input type="reset" value="Borrar">
+        </form>
+      </td>
+    </tr>
+  </table>
+
+  <table border="1" width="100%" height="50">
+    <tr bgcolor="lightgray" align="center">
+      <td>&copy; 2025 Market MAJO - Todos los derechos reservados</td>
+    </tr>
+  </table>
+
+</body>
+</html>
